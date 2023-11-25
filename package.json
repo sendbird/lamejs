@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node src/js/Tests.js"
+    "test": "node src/js/Tests.js",
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,9 @@
   },
   "homepage": "https://github.com/zhuker/lamejs#readme",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "rollup": "^4.5.2",
+    "rollup-plugin-terser": "^7.0.2",
     "use-strict": "1.0.1"
   }
 }

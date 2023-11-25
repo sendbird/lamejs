@@ -3,16 +3,10 @@ Fast mp3 encoder written in JavaScript.
 On my machine it works 20x faster than realtime (it will encode 132 second long sample in 6.5 seconds) both on node and chrome.
 lamejs is a rewrite of jump3r-code which is a rewrite of libmp3lame.
 
-## Installation
-
-To install via Bower or npm, simply do the following:
+## Build
 
 ```bash
-$ bower install lamejs --save
-```
-
-```bash
-$ npm install lamejs
+$ npm run build
 ```
 
 # Quick Start

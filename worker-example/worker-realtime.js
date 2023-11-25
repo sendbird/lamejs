@@ -5,7 +5,7 @@
   'use strict';
 
   console.log('MP3 conversion worker started.');
-  importScripts('../lame.min.js');
+  importScripts('../dist/index.js');
 
   var mp3Encoder, maxSamples = 1152, samplesMono, config, dataBuffer;
   var clearBuffer = function () {
